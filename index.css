@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid royalblue; */
+}
+
+html {
+  font-family: "amir";
+}
+body {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "amir";
+  src: url("./font/WorkSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+.countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+input {
+  outline: unset;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.top {
+  display: flex;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(62, 54, 54);
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20%;
+}
+.three {
+  height: 25%;
+  color: #b7b7b7;
+}
+.btn {
+  background-color: #6fb554;
+  outline: unset;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.wel {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+::placeholder {
+  color: #b7b7b7;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+a {
+  color: #59ad3f;
+  text-decoration: unset;
+}
+
+.all {
+  width: 100%;
+  height: 100%;
+}
